@@ -1,0 +1,92 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #95c7d2;
+    font-family: 'Urbanist', sans-serif;
+  }
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-top: 40px;
+    height: 350px;
+    width: 20%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(145deg,#b7e2e8,#ffffff);
+    border-radius: 20px;
+    box-shadow: 4px 4px 39px 13px rgba(34, 60, 80, 0.16);
+}
+
+.screen {
+    font-weight: 300;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.darkBackground {
+    background: linear-gradient(10deg,#ffffff,#b7e2e8);
+}
+
+.smallScreen {
+    font-weight: 100;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.buttons{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 50%;
+    background:#f6fafb;
+    box-shadow:  10px 10px 14px #dde1e2,
+             -10px -10px 14px #ffffff;
+}
+
+.button:active {
+    background: linear-gradient(145deg, #dde1e2, #ffffff);
+    box-shadow:  10px 10px 14px #dde1e2,
+             -10px -10px 14px #ffffff;
+}
+
+.homeButton {
+    background-color: #95c7d2;
+    color:#000000;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 20%;
+    border: none;
+    border-radius: 20px;
+    font-size: 24px;
+    text-transform: uppercase;
+    box-shadow: 4px 4px 20px 13px rgba(34, 60, 80, 0.16);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.homeButton:hover {
+    background-color: #9dcdd7;
+}
+
+.homeButton:active {
+    background-color: #86bdc9;
+}
