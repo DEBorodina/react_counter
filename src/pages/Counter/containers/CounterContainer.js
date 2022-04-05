@@ -24,9 +24,11 @@ class CounterContainer extends Component {
   };
 
   HandleDecrement = () => {
-    this.setState({
-      countValue: this.state.countValue !== 0 ? this.state.countValue - 1 : 0,
-    });
+    if (this.state.countValue !== 0) {
+      this.setState({
+        countValue: this.state.countValue - 1,
+      });
+    }
   };
 
   HandleReset = () => {

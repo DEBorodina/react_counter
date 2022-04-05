@@ -14,8 +14,4 @@ const HomeView = () => {
   );
 };
 
-HomeView.propTypes = {
-  switchToCounter: PropTypes.func.isRequired,
-};
-
 export default HomeView;
