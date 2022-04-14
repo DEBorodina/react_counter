@@ -26,7 +26,7 @@ const CounterView = ({
         </button>
       </div>
       <button className={styles.homeButton} onClick={() => onRemove(id)}>
-        Romeve
+        Remove
       </button>
     </div>
   );
