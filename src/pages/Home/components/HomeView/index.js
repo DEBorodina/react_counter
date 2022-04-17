@@ -12,6 +12,12 @@ const HomeView = () => {
       <Link to={ROUTE_NAMES.COUNTER_OF_COUNTERS_PAGE} className={styles.button}>
         Counter of Counters
       </Link>
+      <Link to={ROUTE_NAMES.REDUX_PAGE} className={styles.button}>
+        Redux Counter
+      </Link>
+      <Link to={ROUTE_NAMES.FORM_PAGE} className={styles.button}>
+        forms
+      </Link>
     </div>
   );
 };
