@@ -1,4 +1,5 @@
 import styles from "./styles.module.css";
+import PropTypes from "prop-types";
 import CounterView from "../CounterView";
 
 const CounterOfCountersView = ({
@@ -44,6 +45,23 @@ const CounterOfCountersView = ({
       </div>
     </div>
   );
+};
+
+CounterOfCountersView.propTypes = {
+  counters: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      value: PropTypes.number.isRequired,
+    })
+  ).isRequired,
+  increment: PropTypes.func.isRequired,
+  decrement: PropTypes.func.isRequired,
+  reset: PropTypes.func.isRequired,
+  remove: PropTypes.func.isRequired,
+  number: PropTypes.number.isRequired,
+  sum: PropTypes.number.isRequired,
+  addCounter: PropTypes.func.isRequired,
+  resetCounters: PropTypes.func.isRequired,
 };
 
 export default CounterOfCountersView;

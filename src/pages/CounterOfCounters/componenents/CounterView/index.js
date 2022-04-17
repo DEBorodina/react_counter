@@ -37,6 +37,8 @@ CounterView.propTypes = {
   onIncrement: PropTypes.func.isRequired,
   onDecrement: PropTypes.func.isRequired,
   onReset: PropTypes.func.isRequired,
+  onRemove: PropTypes.func.isRequired,
+  id: PropTypes.string.isRequired,
 };
 
 export default memo(CounterView);

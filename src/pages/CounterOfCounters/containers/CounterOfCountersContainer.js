@@ -5,8 +5,8 @@ import { cloneDeep } from "lodash";
 
 const CounterOfCountersContainer = () => {
   const [counters, setCounters] = useState([]);
-  const [sum, setSum] = useState([0]);
-  const [number, setNumber] = useState([0]);
+  const [sum, setSum] = useState(0);
+  const [number, setNumber] = useState(0);
 
   const increment = useCallback((id) => {
     setCounters((state) => {
