@@ -14,6 +14,7 @@ export const Router = () => {
         path={ROUTE_NAMES.COUNTER_OF_COUNTERS_PAGE}
         element={<CounterOfCountersContainer />}
       />
+      <Route path={ROUTE_NAMES.TODO_LIST_PAGE} element={<>hello</>} />
       <Route path="*" element={<HomeContainer />} />
     </Routes>
   );
