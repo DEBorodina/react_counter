@@ -11,8 +11,8 @@ body {
     margin: 0 auto;
     margin-top: 40px;
     margin-top: 40px;
-    height: 80px;
-    width: 60%;
+    height: 70px;
+    width: 70%;
     min-width: 300px;
     display: flex;
     justify-content: space-around;
@@ -23,13 +23,13 @@ body {
 }
 
 .button {
-    background-color: #95c7d2;
+    background-color: #8bc4d2;
     color:#000000;
     text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40%;
+    width: 15%;
     height: 70%;
     border: none;
     border-radius: 20px;
@@ -44,4 +44,9 @@ body {
 
 .button:active {
     background-color: #86bdc9;
+}
+
+.counterContainer{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
