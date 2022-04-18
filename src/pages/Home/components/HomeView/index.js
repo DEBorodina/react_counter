@@ -12,6 +12,9 @@ const HomeView = () => {
       <Link to={ROUTE_NAMES.COUNTER_OF_COUNTERS_PAGE} className={styles.button}>
         Counter of Counters
       </Link>
+      <Link to={ROUTE_NAMES.TODO_LIST_PAGE} className={styles.button}>
+        To Do List
+      </Link>
     </div>
   );
 };
